@@ -1,0 +1,25 @@
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+div.pic-card {
+    background: rgba(255, 255, 255, .5);
+}
+
+div.submit-card {
+    background: rgba(255, 255, 255, .8);
+}
+
+img.logo {
+    padding: 5%;
+}
+
+div.gap {
+    height: 10vh;
+}
+
+h5.submit {
+    padding: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
