@@ -23,3 +23,25 @@ h5.submit {
     padding: 5%;
     font-family: 'Quicksand', sans-serif;
 }
+
+p.image_caption {
+    text-align: center;
+}
+
+p.image_source {
+    text-align: center;
+}
+
+p.rasr_image {
+    text-align: center;
+}
+
+img.rasr_image {
+    height: 30%;
+    width: 30%;
+}
+
+hr.image_divider {
+    height: 1px;
+    color: lightgray;
+}

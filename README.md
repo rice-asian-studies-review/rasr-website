@@ -1,5 +1,7 @@
 # rasr-website
-RASR - Rice Asian Studies Review website
+RASR - Rice Asian Studies Review website.
+
+Created by Avery Jordan 2017.
 
 Directed to rasr.rice.edu.
 
