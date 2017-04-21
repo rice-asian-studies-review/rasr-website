@@ -45,3 +45,9 @@ hr.image_divider {
     height: 1px;
     color: lightgray;
 }
+
+h5.article_title{
+    padding: 3px;
+    margin: 3px;
+    font-family:'Quicksand', sans-serif;
+}
