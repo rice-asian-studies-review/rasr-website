@@ -57,124 +57,26 @@ h5.article_title{
 .nav {
     background-color: #ffffff;
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
-  .nav a {
+.nav a {
     float: left;
     color: #050404;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
   /* Change the color of links on hover */
-  .nav a:hover {
+.nav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
   
   /* Add a color to the active/current link */
   .nav a.active {
     background-color: red;
     color: white;
-  }
-
-/* Navigation: Attempt 2 */
-
-/* * {
-
-    margin: 0px;
-  
-    padding: 0px;
-  
-    box-sizing: border-box;
-  
-  }
-  
-  .body-text {
-  
-    display: flex;
-  
-    font-family: "Montserrat", sans-serif;
-  
-    align-items: center;
-  
-    justify-content: center;
-  
-    margin-top: 250px;
-  
-  }
-  
-  nav {
-  
-    display: flex;
-  
-    justify-content: space-around;
-  
-    align-items: center;
-  
-    min-height: 8vh;
-  
-    background-color: teal;
-  
-    font-family: "Montserrat", sans-serif;
-  
-  }
-  
-  .heading {
-  
-    color: white;
-  
-    text-transform: uppercase;
-  
-    letter-spacing: 5px;
-  
-    font-size: 20px;
-  
-  }
-  
-  .nav-links {
-  
-    display: flex;
-  
-    justify-content: space-around;
-  
-    width: 30%;
-  
-  }
-  
-  .nav-links li {
-  
-    list-style: none;
-  
-  }
-  
-  .nav-links a {
-  
-    color: white;
-  
-    text-decoration: none;
-  
-    letter-spacing: 3px;
-  
-    font-weight: bold;
-  
-    font-size: 14px;
-  
-    padding: 14px 16px;
-  
-  }
-  
-  .nav-links a:hover:not(.active) {
-  
-    background-color: lightseagreen;
-  
-  }
-  
-  .nav-links li a.active {
-  
-    background-color: #4caf50;
-  
-  } */
+}
