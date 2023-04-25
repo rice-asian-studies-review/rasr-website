@@ -1,8 +1,9 @@
 # rasr-website
 RASR - Rice Asian Studies Review website.
 
-Created by Avery Jordan 2017.
+Created by Avery Jordan 2017 and edited by Emma Li 2023.
 
 Directed to rasr.rice.edu.
 
-Currently only features a landing page with an email link for submissions. Future updates will include archives of journals, possibly an online submit form, and more information about the journal.
+Currently displays an archives of journals, the current editorial team, 
+submission guidelines, frequently asked questions, and contact information.
