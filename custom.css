@@ -55,7 +55,7 @@ h5.article_title{
 /* Navigation: Attempt 1 */
 /* Add a black background color to the top navigation */
 .nav {
-    background-color: #ffffff;
+    background-color: #eab2b2;
     overflow: hidden;
 }
   
@@ -71,12 +71,12 @@ h5.article_title{
   
   /* Change the color of links on hover */
 .nav a:hover {
-    background-color: #ddd;
+    background-color: #fffdfd;
     color: black;
 }
   
   /* Add a color to the active/current link */
   .nav a.active {
-    background-color: red;
+    background-color: rgb(170, 55, 55);
     color: white;
 }
