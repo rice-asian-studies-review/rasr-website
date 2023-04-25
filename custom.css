@@ -77,6 +77,6 @@ h5.article_title{
   
   /* Add a color to the active/current link */
   .nav a.active {
-    background-color: rgb(170, 55, 55);
+    background-color: #852736;
     color: white;
 }
