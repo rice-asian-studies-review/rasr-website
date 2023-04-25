@@ -5,5 +5,5 @@ Created by Avery Jordan 2017 and edited by Emma Li 2023.
 
 Directed to rasr.rice.edu.
 
-Currently displays an archives of journals, the current editorial team, 
+Currently features an archives of journals, the current editorial team, 
 submission guidelines, frequently asked questions, and contact information.
