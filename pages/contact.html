@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
   <link rel="stylesheet" href="../custom.css" />
   <link rel="shortcut icon" href="../favico.png">
+
   <title>Contact</title>
 
   <style>
@@ -33,6 +34,8 @@
       list-style: none; /* Remove bullet points */
       margin: 0; /* Remove default margin */
       padding: 0;
+      width: 100%; /* Make the navigation bar span the full width */
+      justify-content: right; /* Center the navigation items */
     }
 
     .nav-item {
@@ -52,8 +55,9 @@
     }
 
     .nav-link.active {
-      background-color: #eee; /* Slightly darker background for active link */
+      background-color: #eee; /* Darker background for active link */
     }
+
 
     /* Content */
     .content {
@@ -75,32 +79,54 @@
     .contact-section a {
       color: #007bff; /* Blue for links */
     }
+
+    .button {
+      display: inline-block;
+      padding: 0px 20px;
+      background-color: #770000;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #c85252;
+    }
+
+
   </style>
 </head>
 
 <body>
 
   <header class="header">
-    <a href="#" class="logo"></a>
+
+    <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+      <img src="Logo_avery.png" style="width: 15%; height: 15%;">
+    </div>
+
     <nav class="nav-bar">
-      <li class="nav-item">
+      <div class="nav-item">
         <a href="../index.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item">
+      </div>
+      <div class="nav-item">
         <a href="ourteam.html" class="nav-link">Our Team</a>
-      </li>
-      <li class="nav-item">
+      </div>
+      <div class="nav-item">
         <a href="issues.html" class="nav-link">Issues</a>
-      </li>
-      <li class="nav-item">
+      </div>
+      <div class="nav-item">
         <a href="submissions.html" class="nav-link">Submissions</a>
-      </li>
-      <li class="nav-item">
-        <a href="faqs.html" class="nav-link">FAQs</a>
-      </li>
-      <li class="nav-item">
+      </div>
+<!--      <div class="nav-item">-->
+<!--        <a href="faqs.html" class="nav-link">FAQs</a>-->
+<!--      </div>-->
+      <div class="nav-item">
         <a href="contact.html" class="nav-link active">Contact</a>
-      </li>
+      </div>
+
     </nav>
   </header>
 
@@ -110,8 +136,17 @@
       <a href="mailto:rasr@rice.edu">rasr@rice.edu</a>
     </section>
     <section class="contact-section">
-      <h5>Want to get involved with the journal? We typically call for new members in the fall, so keep an eye out for the announcement!</h5>
+
+      <h5>We are actively recruiting new Editors to RASR!</h5>
     </section>
+
+    <div style="text-align: center;">
+      <a href="https://forms.gle/W8kXaDK9TGoEsNX37" class="button">Apply to be an Editor for RASR</a>
+      <br>
+      <img src="RASR%20Call%20for%20Editors.png" alt="Poster Image" width="40%" height="40%">
+    </div>
+
+
   </div>
 </body>
 

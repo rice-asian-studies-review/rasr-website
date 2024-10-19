@@ -5,21 +5,11 @@
   <head>
 
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-
-      rel="stylesheet"
-
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" href="../custom.css"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-
     <link rel="shortcut icon" href="../favico.png">
 
     <title>Our Team</title>
@@ -55,36 +45,164 @@
         width: 700px;
         text-align: center;
       }
+
+
+      /* Header and Navigation */
+      .header {
+          background-color: white;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          padding: 10px 20px;
+          display: flex;
+          justify-content: space-between; /* Space items evenly */
+          align-items: center; /* Align vertically */
+      }
+
+      .logo {
+          width: 15%;
+      }
+
+      .nav-bar {
+          display: flex;
+          list-style: none; /* Remove bullet points */
+          margin: 0; /* Remove default margin */
+          padding: 0;
+          width: 100%; /* Make the navigation bar span the full width */
+          justify-content: right; /* Center the navigation items */
+      }
+
+      .nav-item {
+          margin: 0 10px;
+      }
+
+      .nav-link {
+          text-decoration: none; /* Remove underline */
+          color: black;
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          transition: background-color 0.3s ease; /* Smooth background color change */
+      }
+
+      .nav-link:hover {
+          background-color: #ddd; /* Lighten background on hover */
+      }
+
+      .nav-link.active {
+          background-color: #eee; /* Slightly darker background for active link */
+      }
+
+      /* Content */
+      .content {
+          margin-top: 120px; /* Space below the header */
+          padding: 20px;
+      }
+
+      .contact-section {
+          text-align: center;
+          margin-bottom: 30px;
+      }
+
+      .contact-section h5 {
+          font-weight: normal; /* Less bold for readability */
+          font-size: 18px;
+          margin-bottom: 15px;
+      }
+
+      .contact-section a {
+          color: #007bff; /* Blue for links */
+      }
+
+      .button {
+          display: inline-block;
+          padding: 0px 20px;
+          background-color: #770000;
+          color: #fff;
+          text-decoration: none;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      .button:hover {
+          background-color: #c85252;
+      }
     </style>
 
   </head>
 
   <!-- <body> -->
-    <body style="padding-top: 180px;">
-    
-    <div style="text-align: center; margin: auto; position: fixed; top: 0px;
-      left: 0px;
-      right: 0px; background-color: white;">
-        <img src="Logo_avery.png" style="width: 15%; height: 15%;">
-    </div>
-    
-    
-    <div style="display: flex; align-items: center; position: fixed; top: 128px;
-      left: 0px;
-      right: 0px;">
-        <a class="nav-div"  href="../index.html">Home</a>
-      <div class = "nav-div"> <a class="active" style= "text-decoration: none; color: black;" href="ourteam.html">Our Team</a></div>
-      <a class = "nav-div"  href="issues.html">Issues</a>
-        <a class="nav-div"  href="submissions.html">Submissions</a>
-        <a class="nav-div"  href="faqs.html">FAQs</a>
-        <a class="nav-div" href="contact.html">Contact</a>
-    </div>
+<!--    <body style="padding-top: 180px;">-->
+<!--    -->
+<!--    <div style="text-align: center; margin: auto; position: fixed; top: 0px;-->
+<!--      left: 0px;-->
+<!--      right: 0px; background-color: white;">-->
+<!--        <img src="Logo_avery.png" style="width: 15%; height: 15%;">-->
+<!--    </div>-->
+<!--    -->
+<!--    -->
+<!--    <div style="display: flex; align-items: center; position: fixed; top: 128px;-->
+<!--      left: 0px;-->
+<!--      right: 0px;">-->
+<!--        <a class="nav-div"  href="../index.html">Home</a>-->
+<!--      <div class = "nav-div"> <a class="active" style= "text-decoration: none; color: black;" href="ourteam.html">Our Team</a></div>-->
+<!--      <a class = "nav-div"  href="issues.html">Issues</a>-->
+<!--        <a class="nav-div"  href="submissions.html">Submissions</a>-->
+<!--        <a class="nav-div"  href="faqs.html">FAQs</a>-->
+<!--        <a class="nav-div" href="contact.html">Contact</a>-->
+<!--    </div>-->
 
+
+<!--  <body style="padding-top: 15px;">-->
+<!--  <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">-->
+<!--      <img src="../rasr_logo_partial_white_bg.png" style="width: 15%; height: 15%;">-->
+<!--  </div>-->
+
+<!--  <div style="display: flex; align-items: center; position: static; top: 128px; left: 0px; right: 0px">-->
+<!--      <a class="nav-div"  href="../index.html">Home</a>-->
+<!--      <a class="nav-div" href="ourteam.html">Our Team</a>-->
+<!--      <a class="nav-div"  href="issues.html">Issues</a>-->
+<!--      <a class="nav-div"  href="submissions.html">Submissions</a>-->
+<!--      <a class="nav-div"  href="faqs.html">FAQs</a>-->
+<!--      <a class="nav-div" href="contact.html">Contact</a>-->
+<!--  </div>-->
+
+  <body>
+
+  <header class="header">
+
+      <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+          <img src="Logo_avery.png" style="width: 15%; height: 15%;">
+      </div>
+
+      <nav class="nav-bar">
+          <div class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+          </div>
+          <div class="nav-item">
+              <a href="ourteam.html" class="nav-link active">Our Team</a>
+          </div>
+          <div class="nav-item">
+              <a href="issues.html" class="nav-link">Issues</a>
+          </div>
+          <div class="nav-item">
+              <a href="submissions.html" class="nav-link">Submissions</a>
+          </div>
+<!--          <div class="nav-item">-->
+<!--              <a href="faqs.html" class="nav-link">FAQs</a>-->
+<!--          </div>-->
+          <div class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+
+      </nav>
+  </header>
 
  
     <div class="new-div">
      <div class="text-div">
-       <h5 class="article_title"><b> 2023-2024 Editorial Board</b></h5>
+       <h5 class="article_title"><b> 2024-2025 Editorial Board</b></h5>
        </div>
       </div>
       
@@ -95,26 +213,25 @@
        <b> Editors-in-Chief</b><br>
           </h5>
           <h5 class="article_title">
-           Hoang Nguyen<br>Lily Remington<br>
+              Lily Remington<br>Matt Banschbach<br>
        </h5>
           <h5 class="article_title">
        <b> Managing Editor</b><br>
           </h5>
           <h5 class="article_title">
-          Matt Banschbach<br>
+          Matthew Ahn<br>
           </h5>
       <h5 class="article_title">
-       <b> Director of Publishing</b><br>
+       <b> Directors of Publishing</b><br>
           </h5>
           <h5 class="article_title">
-           Maya Habraken<br>
+           Maya Habraken<br>Sophia Govea<br>
      </h5>
        <h5 class="article_title">
        <b> Editors</b><br>
           </h5>
           <h5 class="article_title">
-           Matthew Ahn<br>Sophia Cho<br>Sophia Govea<br>Kelly Guo<br>Bryson Jun<br>V Lundquist<br>Gina Matos<br>
-            Karina Pan<br>Ellen Sun<br>Muriel Taylor-Adair<br>Rijuta Vallishayee<br>
+           TBA<br>
      </h5>
      </div>
    </div>

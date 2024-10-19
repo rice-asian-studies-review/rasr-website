@@ -1,102 +1,177 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-  <head>
-
+<head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-
-      rel="stylesheet"
-
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" href="../custom.css"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-
     <link rel="shortcut icon" href="../favico.png">
-
     <title>Issues</title>
-    
-    <style>
-      .nav-div{
-    flex: 1;
-    text-decoration: none;
-    text-align: center;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    font-weight: 400;
-    font-size: 20px;
-    color: black; 
-     background-color: #eab2b2;
-    }
- 
- .nav-div:hover{
-     background-color: #852736;
-    }
-    
-.new-div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-      
-      .text-div{
-        width: 700px;
-        text-align: center;
-      }
-    </style>
-    
 
+    <style>
+        /* Header and Navigation */
+        .header {
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between; /* Space items evenly */
+            align-items: center; /* Align vertically */
+        }
+
+        .logo {
+            width: 15%;
+        }
+
+        .nav-bar {
+            display: flex;
+            list-style: none; /* Remove bullet points */
+            margin: 0; /* Remove default margin */
+            padding: 0;
+            width: 100%; /* Make the navigation bar span the full width */
+            justify-content: right; /* Center the navigation items */
+        }
+
+        .nav-item {
+            margin: 0 10px;
+        }
+
+        .nav-link {
+            text-decoration: none; /* Remove underline */
+            color: black;
+            font-weight: bold;
+            font-family: "Montserrat", sans-serif;
+            transition: background-color 0.3s ease; /* Smooth background color change */
+        }
+
+        .nav-link:hover {
+            background-color: #ddd; /* Lighten background on hover */
+        }
+
+        .nav-link.active {
+            background-color: #eee; /* Slightly darker background for active link */
+        }
+
+        .new-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .text-div{
+            width: 700px;
+            text-align: center;
+        }
+
+        /* Content */
+        .content {
+            margin-top: 120px; /* Space below the header */
+            padding: 20px;
+        }
+
+        .issue-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .issue-section h5 {
+            font-weight: normal; /* Less bold for readability */
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .issue-section a {
+            color: #007bff; /* Blue for links */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0px 20px;
+            background-color: #770000;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #c85252;
+        }
+
+     /*     .nav-div{*/
+     /*   flex: 1;*/
+     /*   text-decoration: none;*/
+     /*   text-align: center;*/
+     /*   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+     /*   padding-top: 14px;*/
+     /*   padding-bottom: 14px;*/
+     /*   font-weight: 400;*/
+     /*   font-size: 20px;*/
+     /*   color: black; */
+     /*    background-color: #eab2b2;*/
+     /*   }*/
+
+     /*.nav-div:hover{*/
+     /*    background-color: #852736;*/
+     /*   }*/
+
+    </style>
   </head>
 
   <!-- <body> -->
-<body style="padding-top: 180px;">
-    
-    <div style="text-align: center; margin: auto; position: fixed; top: 0px;
-      left: 0px;
-      right: 0px; background-color: white;">
-        <img src="Logo_avery.png" style="width: 15%; height: 15%;">
-    </div>
-    
-    
-    <div style="display: flex; align-items: center; position: fixed; top: 128px;
-      left: 0px;
-      right: 0px;">
-        <a class="nav-div"  href="../index.html">Home</a>
-        <a class="nav-div" href="ourteam.html">Our Team</a>
-      <div class = "nav-div"><a class = "active" style= "text-decoration: none; color: black;" href="issues.html">Issues</a></div>
-        <a class="nav-div"  href="submissions.html">Submissions</a>
-        <a class="nav-div"  href="faqs.html">FAQs</a>
-        <a class="nav-div" href="contact.html">Contact</a>
-    </div>
 
-  
-          <div class="new-div">
-     <div class="text-div">
-     <h5 class="article_title">
-       <b>Issues</b><br>
-              <h5 class="article_title"><a style = "color: black;" href="../RASR VOL 7.pdf">Volume 7: 2023-2024 Issue<a></h5>       
-              <h5 class="article_title"><a style = "color: black;" href="../RASR VOL 6 FINAL VERSION.pdf">Volume 6: 2022-2023 Issue<a></h5>
+  <body style="padding-top: 70px;">
+  <header class="header">
+
+      <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+          <img src="Logo_avery.png" style="width: 15%; height: 15%;" alt="">
+      </div>
+
+      <nav class="nav-bar">
+
+          <div class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+          </div>
+          <div class="nav-item">
+              <a href="ourteam.html" class="nav-link">Our Team</a>
+          </div>
+          <div class="nav-item">
+              <a href="issues.html" class="nav-link active">Issues</a>
+          </div>
+          <div class="nav-item">
+              <a href="submissions.html" class="nav-link">Submissions</a>
+          </div>
+          <div class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+
+      </nav>
+
+  </header>
+
+  <div class="new-div">
+      <section class="issue-section">
+          <h5 class="article_title">
+              <b>Issues</b><br>
+              <h5 class="article_title"><a style = "color: black;" href="../RASR VOL 7.pdf">Volume 7: 2023-2024 Issue</a></h5>
+              <h5 class="article_title"><a style = "color: black;" href="../RASR VOL 6 FINAL VERSION.pdf">Volume 6: 2022-2023 Issue</a></h5>
               <h5 class="article_title"><a style = "color: black;" href="../issue5/RASR_V5.pdf">Volume 5: 2021-2022 Issue</a></h5>
               <h5 class="article_title"><a style = "color: black;" href="../RASR_V4_FINAL.pdf">Volume 4: 2019-2020 Issue</a></h5>
               <h5 class="article_title"><a style = "color: black;" href="../RASR_V3.pdf">Volume 3 : 2018-2019 Issue</a></h5>
               <h5 class="article_title"><a style = "color: black;" href="../issue2/RASR_VOLUME_2.pdf">Volume 2 : 2017-2018 Issue</a></h5>
               <h5 class="article_title"><a style = "color: black;" href="../issue1/RASR Inaugural Issue_full.pdf">Volume 1 : 2016-2017 Issue</a></h5>
-     </div>
-   </div>
-   
-
+          </h5>
+      </section>
+  </div>
   </body>
 
 </html>
