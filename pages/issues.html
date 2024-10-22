@@ -6,12 +6,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" href="../custom.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" />
     <link rel="shortcut icon" href="../site_images/favico.png">
     <title>Issues</title>
 
     <style>
         /* Header and Navigation */
+
+
         /*.header {*/
         /*    background-color: white;*/
         /*    position: fixed;*/
@@ -66,12 +68,31 @@
             margin-bottom: 30px;
         }
 
-        .text-div{
-            width: 700px;
+        .nav-div{
+            flex: 1;
+            text-decoration: none;
             text-align: center;
+            font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            font-weight: 400;
+            font-size: 20px;
+            color: black;
+            background-color: #eab2b2;
+        }
+
+        .nav-div:hover{
+            background-color: #852736;
         }
 
         /* Content */
+
+        .text-div{
+            width: 700px;
+            height: 500px;
+            text-align: center;
+        }
+
         .content {
             margin-top: 120px; /* Space below the header */
             padding: 20px;
@@ -79,7 +100,8 @@
 
         .issue-section {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
+            ;
         }
 
         .issue-section h5 {
@@ -92,37 +114,16 @@
             color: #007bff; /* Blue for links */
         }
 
-        .button {
-            display: inline-block;
-            padding: 0px 20px;
-            background-color: #770000;
-            color: #fff;
-            text-decoration: none;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px; /* Adjust the gap as needed */
         }
 
-        .button:hover {
-            background-color: #c85252;
+        .image-container {
+            text-align: center;
         }
 
-          .nav-div{
-        flex: 1;
-        text-decoration: none;
-        text-align: center;
-        font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        font-weight: 400;
-        font-size: 20px;
-        color: black;
-         background-color: #eab2b2;
-        }
-
-     .nav-div:hover{
-         background-color: #852736;
-        }
 
     </style>
   </head>
@@ -133,7 +134,7 @@
   <header class="header">
 
       <div style="text-align: center; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
-          <img src="/site_images/Logo_avery.png" style="width: 15%; height: 15%;" alt="">
+          <img src="/site_images/Logo_avery.png" style="width: 15%;" alt="">
       </div>
 
 
@@ -160,20 +161,44 @@
 
   </header>
 
-  <div class="new-div">
+  <div style="margin-top: 20px">
       <section class="issue-section">
           <h5 class="article_title">
-              <b>Issues</b><br>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol7_final.pdf">Volume 7: 2023-2024 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol6_final.pdf">Volume 6: 2022-2023 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol5_final.pdf">Volume 5: 2021-2022 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol4_final.pdf">Volume 4: 2019-2020 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol3_final.pdf">Volume 3 : 2018-2019 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol2_final.pdf">Volume 2 : 2017-2018 Issue</a></h5>
-              <h5 class="article_title"><a style = "color: black;" href="../Issues/rasr_vol1_final.pdf">Volume 1 : 2016-2017 Issue</a></h5>
-          </h5>
+              <b>Issues</b><br></h5>
       </section>
   </div>
+
+  <div class="image-grid">
+      <div class="image-container">
+          <img src="../site_images/covers/rasr_vol7_cover.webp" style="width: 50%" alt="Volume 7 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol7_final.pdf">Volume 7: 2023-2024 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol6.png" style="width: 50%" alt="Volume 6 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol6_final.pdf">Volume 6: 2022-2023 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol5.png" style="width: 50%" alt="Volume 5 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol5_final.pdf">Volume 5: 2021-2022 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol4.png" style="width: 50%" alt="Volume 4 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol4_final.pdf">Volume 4: 2019-2020 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol3.png" style="width: 50%" alt="Volume 3 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol3_final.pdf">Volume 3: 2018-2019 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol2.png" style="width: 50%" alt="Volume 2 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol2_final.pdf">Volume 2: 2017-2018 Issue</a></h5>
+      </div>
+      <div class="image-container">
+          <img src="../site_images/covers/vol1.png" style="width: 50%" alt="Volume 1 Cover">
+          <h5 class="article_title"><a style="color: black;" href="../Issues/rasr_vol1_final.pdf">Volume 1: 2016-2017 Issue</a></h5>
+      </div>
+  </div>
+
   </body>
 
 </html>

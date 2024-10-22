@@ -5,68 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36b0688d-16ee-4518-9e4b-5b6ab99490c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/contact_copy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FINAL RASR.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RASR VOL 6 FINAL VERSION.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RASR VOL 7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RASR_V3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RASR_V4_FINAL.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RASR_VOLUME_2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screen Shot 2018-04-17 at 9.28.48 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/betterqualitylogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cox_figure_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg19-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg19-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg22-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg22-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rg9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR Inaugural Issue_full.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_George.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_Hahn.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_Joshi.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_Morin.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_Neagli.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue1/RASR_vol1_Park.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue2/RASR_VOLUME_2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue5/RASR_V5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue_one_images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jordan_art_log.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/martinez_images.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Logo_avery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/RASR Call for Editors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/issues.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/issues.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ourteam.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourteam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/submissions.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/submissions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasr_logo_partial_white_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasr_logo_white_bg.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +68,8 @@
       <workItem from="1729531280632" duration="2533000" />
       <workItem from="1729568445208" duration="394000" />
       <workItem from="1729568845795" duration="220000" />
-      <workItem from="1729569113866" duration="1374000" />
+      <workItem from="1729569113866" duration="1459000" />
+      <workItem from="1729620405975" duration="6712000" />
     </task>
     <servers />
   </component>
