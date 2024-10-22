@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" href="custom.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-    <link rel="shortcut icon" href="favico.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" />
+    <link rel="shortcut icon" href="site_images/favico.png">
     
 <style>
 .nav-div{
@@ -56,6 +57,36 @@ text-align: center;
     background-color: #c85252;
 }
 
+.nav-bar {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    width: 100%; /* Make the navigation bar span the full width */
+    justify-content: center; /* Center the navigation items */
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline */
+    color: black;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.nav-link:hover {
+    background-color: #ddd; /* Lighten background on hover */
+}
+
+.nav-link.active {
+    background-color: #eee; /* Darker background for active link */
+}
+
+
     </style> 
 </head>
 
@@ -63,33 +94,52 @@ text-align: center;
 
 <!-- Navigation: Attempt 1 -->
 <body style="padding-top: 15px;">
-    <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
-        <img src="rasr_logo_partial_white_bg.png" style="width: 15%; height: 15%;">
-    </div>
 
-    <div style="display: flex; align-items: center; position: static; top: 128px; left: 0px; right: 0px">
-        <a class="nav-div"  href="index.html">Home</a>
-        <a class="nav-div" href="pages/ourteam.html">Our Team</a>
-        <a class="nav-div"  href="pages/issues.html">Issues</a>
-        <a class="nav-div"  href="pages/submissions.html">Submissions</a>
-<!--        <a class="nav-div"  href="pages/faqs.html">FAQs</a>-->
-        <a class="nav-div" href="pages/contact.html">Contact</a>
+
+<header class="header">
+
+    <div style="text-align: center; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+        <img src="/site_images/Logo_avery.png" style="width: 15%; height: 15%;" alt="">
     </div>
 
 
+    <nav class="nav-bar">
 
+        <div class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+        </div>
+        <div class="nav-item">
+            <a href="pages/ourteam.html" class="nav-link">Our Team</a>
+        </div>
+        <div class="nav-item">
+            <a href="pages/issues.html" class="nav-link">Issues</a>
+        </div>
+        <div class="nav-item">
+            <a href="pages/submissions.html" class="nav-link">Submissions</a>
+        </div>
 
+        <div class="nav-item">
+            <a href="pages/contact.html" class="nav-link">Contact</a>
+        </div>
 
+    </nav>
+
+</header>
 
 
 
    <div class="new-div">
      <div class="text-div">
+
+         <div style="justify-content: center; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+             <img src="site_images/covers/rasr_vol7_cover.webp" style="width: 35%; height: 35%;" alt="">
+         </div>
+
         <h5 class="article_title">
             <b>Volume 7 is out now!</b><br>
             <!-- Read the new volume <a href="RASR VOL 7.pdf">here</a>-->
         </h5>
-         <a href="RASR%20VOL%207.pdf" class="button">Read the latest issue</a>
+         <a href="Issues/rasr_vol7_final.pdf" class="button">Read the latest issue</a>
      </div>
    </div>
 

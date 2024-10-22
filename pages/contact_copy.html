@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" />
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
   <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
   <link rel="stylesheet" href="../custom.css" />
   <link rel="shortcut icon" href="../site_images/favico.png">
@@ -14,19 +13,20 @@
 
   <style>
     /* Header and Navigation */
-
-    .new-div{
+    .header {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 20px;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      justify-content: space-between; /* Space items evenly */
+      align-items: center; /* Align vertically */
     }
 
-    .text-div{
-      width: 700px;
-      text-align: center;
+    .logo {
+      width: 15%;
     }
 
     .nav-bar {
@@ -35,7 +35,7 @@
       margin: 0; /* Remove default margin */
       padding: 0;
       width: 100%; /* Make the navigation bar span the full width */
-      justify-content: center; /* Center the navigation items */
+      justify-content: right; /* Center the navigation items */
     }
 
     .nav-item {
@@ -58,9 +58,10 @@
       background-color: #eee; /* Darker background for active link */
     }
 
+
     /* Content */
     .content {
-      margin-top: 20px; /* Space below the header */
+      margin-top: 120px; /* Space below the header */
       padding: 20px;
     }
 
@@ -94,41 +95,40 @@
       background-color: #c85252;
     }
 
+
   </style>
 </head>
 
-<body style="padding-top: 15px;">
+<body>
 
   <header class="header">
 
-    <div style="text-align: center; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
-      <img src="../site_images/Logo_avery.png" style="width: 15%; height: 15%;" alt="">
+    <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+      <img src="../site_images/Logo_avery.png" style="width: 15%; height: 15%;">
     </div>
 
-
     <nav class="nav-bar">
-
       <div class="nav-item">
         <a href="../index.html" class="nav-link">Home</a>
       </div>
       <div class="nav-item">
-        <a href="../pages/ourteam.html" class="nav-link">Our Team</a>
+        <a href="ourteam.html" class="nav-link">Our Team</a>
       </div>
       <div class="nav-item">
-        <a href="../pages/issues.html" class="nav-link">Issues</a>
+        <a href="issues.html" class="nav-link">Issues</a>
       </div>
       <div class="nav-item">
-        <a href="../pages/submissions.html" class="nav-link">Submissions</a>
+        <a href="submissions.html" class="nav-link">Submissions</a>
       </div>
-
+<!--      <div class="nav-item">-->
+<!--        <a href="faqs.html" class="nav-link">FAQs</a>-->
+<!--      </div>-->
       <div class="nav-item">
-        <a href="../pages/contact.html" class="nav-link active">Contact</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
       </div>
 
     </nav>
-
   </header>
-
 
   <div class="content">
     <section class="contact-section">

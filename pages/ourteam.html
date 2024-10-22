@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" href="../custom.css"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-    <link rel="shortcut icon" href="../favico.png">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" />
+      <link rel="shortcut icon" href="../site_images/favico.png">
 
     <title>Our Team</title>
     
@@ -48,29 +49,21 @@
 
 
       /* Header and Navigation */
-      .header {
-          background-color: white;
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          padding: 10px 20px;
-          display: flex;
-          justify-content: space-between; /* Space items evenly */
-          align-items: center; /* Align vertically */
-      }
+
+      /*.header {*/
+      /*    background-color: white;*/
+      /*    position: fixed;*/
+      /*    top: 0;*/
+      /*    left: 0;*/
+      /*    right: 0;*/
+      /*    padding: 10px 20px;*/
+      /*    display: flex;*/
+      /*    justify-content: space-between; !* Space items evenly *!*/
+      /*    align-items: center; !* Align vertically *!*/
+      /*}*/
 
       .logo {
           width: 15%;
-      }
-
-      .nav-bar {
-          display: flex;
-          list-style: none; /* Remove bullet points */
-          margin: 0; /* Remove default margin */
-          padding: 0;
-          width: 100%; /* Make the navigation bar span the full width */
-          justify-content: right; /* Center the navigation items */
       }
 
       .nav-item {
@@ -92,6 +85,93 @@
       .nav-link.active {
           background-color: #eee; /* Slightly darker background for active link */
       }
+
+      .nav-bar {
+          display: flex;
+          list-style: none; /* Remove bullet points */
+          margin: 0; /* Remove default margin */
+          padding: 0;
+          width: 100%; /* Make the navigation bar span the full width */
+          justify-content: center; /* Center the navigation items */
+      }
+
+      .nav-item {
+          margin: 0 10px;
+      }
+
+      .nav-link {
+          text-decoration: none; /* Remove underline */
+          color: black;
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          transition: background-color 0.3s ease; /* Smooth background color change */
+      }
+
+
+      /*.nav-div{*/
+      /*    flex: 1;*/
+      /*    text-decoration: none;*/
+      /*    text-align: center;*/
+      /*    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+      /*    padding-top: 14px;*/
+      /*    padding-bottom: 14px;*/
+      /*    font-weight: 400;*/
+      /*    font-size: 20px;*/
+      /*    color: black;*/
+      /*    background-color: #eab2b2;*/
+      /*}*/
+
+      /*.nav-div:hover{*/
+      /*    background-color: #852736;*/
+      /*}*/
+
+      .new-div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+      }
+
+      .text-div{
+          width: 700px;
+          text-align: center;
+      }
+
+      .nav-bar {
+          display: flex;
+          list-style: none; /* Remove bullet points */
+          margin: 0; /* Remove default margin */
+          padding: 0;
+          width: 100%; /* Make the navigation bar span the full width */
+          justify-content: center; /* Center the navigation items */
+      }
+
+      .nav-item {
+          margin: 0 10px;
+      }
+
+      .nav-link {
+          text-decoration: none; /* Remove underline */
+          color: black;
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          transition: background-color 0.3s ease; /* Smooth background color change */
+      }
+
+      .nav-link:hover {
+          background-color: #ddd; /* Lighten background on hover */
+      }
+
+      .nav-link.active {
+          background-color: #eee; /* Darker background for active link */
+      }
+
+
+
+
+
 
       /* Content */
       .content {
@@ -168,35 +248,36 @@
 <!--      <a class="nav-div" href="contact.html">Contact</a>-->
 <!--  </div>-->
 
-  <body>
 
+  <body style="padding-top: 15px;">
   <header class="header">
 
-      <div style="text-align: left; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
-          <img src="Logo_avery.png" style="width: 15%; height: 15%;">
+      <div style="text-align: center; margin: auto; position: static; top: 0px; left: 0px; right: 0px; background-color: white;">
+          <img src="/site_images/Logo_avery.png" style="width: 15%; height: 15%;" alt="">
       </div>
 
+
       <nav class="nav-bar">
+
           <div class="nav-item">
               <a href="../index.html" class="nav-link">Home</a>
           </div>
           <div class="nav-item">
-              <a href="ourteam.html" class="nav-link active">Our Team</a>
+              <a href="../pages/ourteam.html" class="nav-link active">Our Team</a>
           </div>
           <div class="nav-item">
-              <a href="issues.html" class="nav-link">Issues</a>
+              <a href="../pages/issues.html" class="nav-link">Issues</a>
           </div>
           <div class="nav-item">
-              <a href="submissions.html" class="nav-link">Submissions</a>
+              <a href="../pages/submissions.html" class="nav-link">Submissions</a>
           </div>
-<!--          <div class="nav-item">-->
-<!--              <a href="faqs.html" class="nav-link">FAQs</a>-->
-<!--          </div>-->
+
           <div class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="../pages/contact.html" class="nav-link">Contact</a>
           </div>
 
       </nav>
+
   </header>
 
  
@@ -235,8 +316,6 @@
      </h5>
      </div>
    </div>
-
-
   </body>
 
 </html>
