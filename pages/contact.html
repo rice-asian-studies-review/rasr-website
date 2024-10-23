@@ -10,23 +10,23 @@
   <link rel="stylesheet" href="../custom.css" />
   <link rel="shortcut icon" href="../site_images/favico.png">
 
-  <title>Contact</title>
+  <title>Submissions</title>
 
   <style>
     /* Header and Navigation */
 
     .new-div{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      justify-content: left;
+      /*align-items: center;*/
+      /*text-align: center;*/
       margin-top: 30px;
       margin-bottom: 30px;
     }
 
     .text-div{
       width: 700px;
-      text-align: center;
+      text-align: left;
     }
 
     .nav-bar {
@@ -94,6 +94,24 @@
       background-color: #c85252;
     }
 
+    .faqs-container {
+      margin: 20px;
+    }
+
+    details {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    details[open] summary {
+      background-color: #f2f2f2;
+    }
   </style>
 </head>
 
@@ -118,16 +136,88 @@
         <a href="../pages/issues.html" class="nav-link">Issues</a>
       </div>
       <div class="nav-item">
-        <a href="../pages/submissions.html" class="nav-link">Submissions</a>
+        <a href="../pages/contact.html" class="nav-link active">Submissions</a>
       </div>
 
-      <div class="nav-item">
-        <a href="../pages/contact.html" class="nav-link active">Contact</a>
-      </div>
+<!--      <div class="nav-item">-->
+<!--        <a href="../pages/contact.html" class="nav-link active">Contact</a>-->
+<!--      </div>-->
 
     </nav>
 
   </header>
+
+
+
+         <div class="new-div" style="justify-content: left">
+       <div class="text-div" style="justify-content: left">
+         <h5 class="article_title"><b> Submissions for the 2024-2025 issue will open in November 2024</b><br>
+      All submissions must be emailed to <a href="mailto:rasr@rice.edu">rasr@rice.edu</a></h5>
+         </div>
+        </div>
+
+
+           <div class="new-div">
+       <div class="text-div">
+         <h5 class="article_title"><b>Submission Guidelines</b></h5>
+         </div>
+        </div>
+
+        <div class="new-div">
+       <div class="list-div">
+         <h5 class="article_title">
+           <ul>
+             <li>The submission must be related to Asian Studies, which also include Asian American and Asian Diasporic studies. It can be an essay written for coursework at Rice or the author’s research elsewhere.</li>
+                  <li>The submission must be the author’s original work and has not been published elsewhere. No plagiarism will be tolerated.</li>
+             <li>The submission must be at least 1500 words in length and in .docx format.</li>
+             <li>Authors can submit a maximum of two papers per issue.</li>
+             <li>Use of endnotes or footnotes is preferred.</li></ul></h5>
+         </div>
+        </div>
+
+
+  <div class="new-div">
+    <div class="text-div">
+      <h5 class="article_title"><b>Frequently Asked Questions</b></h5>
+    </div>
+  </div>
+
+  <div class="faqs-container">
+    <details>
+      <summary>How do I submit my paper?</summary>
+      <p>Please submit papers to our email <a href="mailto:rasr@rice.edu">rasr@rice.edu</a> and make sure your paper follows the <a href="submissions.html">submission guidelines</a>!</p>
+    </details>
+    <details>
+      <summary>I’m not an undergraduate student at Rice. Can I submit a paper?</summary>
+      <p>No. RASR currently only takes submissions from Rice undergraduates.</p>
+    </details>
+    <details>
+      <summary>How do you evaluate papers?</summary>
+      <p>We look for papers that present original research, especially with primary sources, and demonstrate a fresh insight into Asia or Asian diasporas. The paper should have a strong thesis that is well-corroborated by evidence, a clear, organized structure, and good writing quality.</p>
+    </details>
+    <details>
+      <summary>Does my submission have to be a paper from an Asian Studies class?</summary>
+      <p>Absolutely not! As long as the paper is related to Asian, Asian American, or Asian Diasporic Studies, it is eligible for submission. RASR also welcomes papers not written for classes at Rice, including the student’s independent research.</p>
+    </details>
+    <details>
+      <summary>My paper includes human subjects research. Is it eligible for publication?</summary>
+      <p>The paper needs to have an official IRB number to be able to be published. This means that papers with human subjects research that were written for a class and did not receive proper IRB approval are not eligible for publication.</p>
+    </details>
+    <details>
+      <summary>Does RASR follow a certain citation style?</summary>
+      <p>We do not! Since RASR is an interdisciplinary journal, we don’t restrict our submissions to one citation style. That said, for formatting purposes, we do prefer that authors use footnotes or endnotes.</p>
+    </details>
+    <details>
+      <summary>Who will review my paper?</summary>
+      <p>Through a double-blind review process, the editorial board will first review your paper to decide if it is publishable, in which case your paper will then be reviewed by a faculty member at Rice to ensure that your thesis and research methods meet our standards.</p>
+    </details>
+    <details>
+      <summary>When will I hear back from the Editorial Board after submitting?</summary>
+      <p>After submission, you will receive an email from the Editorial Board confirming that we have received your paper. We try our best to review papers and get back to authors in a timely manner. You can expect to hear back from us from five to six weeks after the submission deadline.</p>
+    </details>
+
+  </div>
+
 
 
   <div class="content">
@@ -135,19 +225,8 @@
       <h5>If you have any questions, please contact us at:</h5>
       <a href="mailto:rasr@rice.edu">rasr@rice.edu</a>
     </section>
-    <section class="contact-section">
-
-      <h5>We are actively recruiting new Editors to RASR!</h5>
-    </section>
-
-    <div style="text-align: center;">
-      <a href="https://forms.gle/W8kXaDK9TGoEsNX37" class="button">Apply to be an Editor for RASR</a>
-      <br>
-      <img src="../site_images/RASR%20Call%20for%20Editors.png" alt="Poster Image" width="40%" height="40%">
-    </div>
-
-
   </div>
+
 </body>
 
 </html>

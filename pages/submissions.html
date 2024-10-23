@@ -82,6 +82,27 @@
     .contact-section a {
       color: #007bff; /* Blue for links */
     }
+
+     .faqs-container {
+         margin: 20px;
+     }
+
+     details {
+         border: 1px solid #ccc;
+         padding: 10px;
+         margin-bottom: 15px;
+     }
+
+     summary {
+         cursor: pointer;
+         font-weight: bold;
+     }
+
+     details[open] summary {
+         background-color: #f2f2f2;
+     }
+
+
   </style>
 </head>
 
@@ -216,7 +237,6 @@
         </div>
     </div>
 
-
     <div class="new-div">
         <div class="text-div">
             <h5 class="article_title">
@@ -314,6 +334,23 @@
             </h5>
         </div>
     </div>
+
+
+
+<div class="faqs-container">
+    <details>
+        <summary>How do I submit my paper?</summary>
+        <p>Please submit papers to our email <a href="mailto:rasr@rice.edu">rasr@rice.edu</a> and make sure your paper follows the <a href="submissions.html">submission guidelines</a>!</p>
+    </details>
+    <details>
+        <summary>Question 2</summary>
+        <p>Answer to Question 2</p>
+    </details>
+
+</div>
+
+
+
 
 
   </body>
