@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b0688d-16ee-4518-9e4b-5b6ab99490c6" name="Changes" comment="" />
+    <list default="true" id="36b0688d-16ee-4518-9e4b-5b6ab99490c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/site_images/RASR 2025 Call for Submissions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +43,7 @@
       <recent name="C:\Users\mbans\WebstormProjects\rasr-website\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mbans\WebstormProjects\rasr-website\site_images" />
       <recent name="C:\Users\mbans\WebstormProjects\rasr-website\pages\archive" />
     </key>
   </component>
@@ -72,7 +77,8 @@
       <workItem from="1729654622659" duration="355000" />
       <workItem from="1729697338151" duration="2949000" />
       <workItem from="1729884680238" duration="313000" />
-      <workItem from="1730332829391" duration="329000" />
+      <workItem from="1730332829391" duration="1449000" />
+      <workItem from="1730653517772" duration="375000" />
     </task>
     <servers />
   </component>
